@@ -2,8 +2,8 @@ import requests
 from lxml import etree
 import re
 from multiprocessing.dummy import Pool
-#需求：爬取梨视频的视频数据(由于梨视频的前端代码发生变化，暂时还没有解析出正确的
-#视频下载地址,但已构建出正确的应用框架)
+#需求：爬取梨视频的视频数据
+#视频下载地址
 #原则：线程池处理的是阻塞且较为耗时的操作
 headers = {
 	'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36'
